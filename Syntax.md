@@ -83,4 +83,20 @@ A link is use to redirect to some webpage on click over it. A link has two compo
 
 e.g. You can open markdown_syntax repo from [here](https://github.com/mnknegi/markdown_syntax).
 
+## Relative Links
 
+It navigates the reader to a different page from the rendered .md file.
+
+e.g. You can navigate to example.md file on clicking [example_folder](example_folder/example.md).
+
+## Images
+
+You can add an image by placing `!` infront of image text inside `[ ]` followed by url of the image inside `( )`.
+
+![F-22 Raptor](https://images4.alphacoders.com/414/thumb-1920-41416.jpg)
+
+Above is an example of rendering an image from absolute link.
+
+![Rafale](example_folder/Rafale.jpeg)
+
+Above is an example of rendering an image from relative link.
