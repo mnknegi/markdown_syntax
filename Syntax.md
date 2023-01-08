@@ -100,3 +100,81 @@ Above is an example of rendering an image from absolute link.
 ![Rafale](example_folder/Rafale.jpeg)
 
 Above is an example of rendering an image from relative link.
+
+## Links
+
+### Unordered List
+
+Use -, * or + for the bullets.
+
+- One
+* Two
++ Three
+
+### Ordered List
+Use numbers to create a ordered list.
+
+1. One
+2. Two
+3. Three
+
+### Nested List
+
+It is created by indenting one or more list items below another item.
+
+- Top list item.
+  * Second nested list item.
+    + Third nested list item.
+
+## Task List
+
+Use hyphen and space followed by `[ ]` before list item to create a task list.
+
+- [ ] Uncheck task list.
+- [x] Task list is completed :tada: 
+
+## Mentioning
+
+We can mention a person or a team in github using `@` symbol.
+
+## PR Reference
+
+You can refer to a pull request using `#` symbol followed by PR number or PR title.
+
+## emoji
+
+We can add emojis using :emoji_code:
+
+e.g. - This PR LGTM :thumbsup:, it's ready to be merged :shipit:
+
+## Comments
+
+We can hide content from the rendered markdown by placing the content in HTML comment.
+
+`<!-- The comment will not appear in the rendered markdown. -->`
+
+<!-- The comment will not appear in the rendered markdown. -->
+
+## Escape markdown formatting
+
+We can escape markdown formatting using `\` by placing it before markdown character.
+
+let's rename \*our-new-project\* to \*our-old-project\*.
+
+## Footnotes
+
+we can create footnotes using bracket syntax.
+
+Here is a simple footnote[^1].
+
+A footnote can have multiple lines[^2].
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My Reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+    
